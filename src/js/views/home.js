@@ -3,7 +3,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 
 export const Home = () => (
-	<div className="text-center mt-5">
+	<div className="bg-light text-center mt-5 p-5">
 		<h1>Hello Rigo!</h1>
 		<p>
 			<img src={rigoImage} />
